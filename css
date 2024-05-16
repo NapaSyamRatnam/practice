@@ -1,0 +1,62 @@
+
+.line1{
+background-color:antiquewhite;
+    padding: 10px;
+    font-size: large;
+    margin: auto;
+}
+
+a{
+    padding: 3rem;
+    color:red;
+    text-decoration:none;
+}
+a:hover{
+    background-color: brown;
+    padding: 5px;
+}
+
+input[type=button]{
+    background-color:greenyellow;
+    font-weight: bold;
+}
+
+.container{
+    background-color: gray;
+    font-size: xx-large;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: greenyellow;
+    font-weight: bolder;
+    
+    
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+article{
+    font-weight: 500;
+}
+h3{
+    font-weight: bold;
+    display: inline;
+}
+ .flex-container{
+    display:flex;
+    flex-wrap:nowrap;
+   /*background-color:palevioletred;*/
+  } 
+  .flex-container  div {
+    background-color: whitesmoke;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    
+  }
